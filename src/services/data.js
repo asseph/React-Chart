@@ -8,14 +8,6 @@ export const dataProjects = [
     description: 'High quality with Competitive Price',
   },
   {
-    id: 2,
-    product: 'Volumizer Hot Air Brush',
-    price: 34,
-    stock: 56,
-    sales: 19,
-    description: 'Less Frizz and helps reduce hair damage',
-  },
-  {
     id: 3,
     product: 'French Terry Jogger',
     price: 165,
