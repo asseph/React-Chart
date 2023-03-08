@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Fintech - Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="App Fintech - Dashboard Practice in No-Country Foundation" name="description" />
+    <meta content="Team59-No-Country" name="author" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="shortcut icon" type="image/png" href="./Logo144x144.png" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/Logo144x144.png" />
+    <link rel="apple-touch-startup-image" href="./Logo144x144.png" />
+  </head>
+  <body data-sidebar="dark">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        //if the browser supports serviceWorkers
+        window.addEventListener('load', function () {
+          navigator.serviceWorker
+            //registers the worker.js file you just made
+            .register('sw.js')
+            .then(
+              function (registration) {
+                console.log('Worker registration successful', registration.scope);
+              },
+              function (err) {
+                console.log('Worker registration failed', err);
+              },
+            )
+            .catch(function (err) {
+              console.log(err);
+            });
+        });
+      } else {
+        console.log('Service Worker is not supported by browser.');
+      }
+    </script>
+  </body>
+</html>

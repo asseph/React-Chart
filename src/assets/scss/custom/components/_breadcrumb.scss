@@ -1,0 +1,16 @@
+//
+// breadcrumb.scss
+//
+
+// Breadcrumb item arrow
+.breadcrumb-item {
+  > a {
+    color: $gray-700;
+  }
+  + .breadcrumb-item {
+    &::before {
+      font-family: 'remixicon';
+      content: '\ea6c';
+    }
+  }
+}

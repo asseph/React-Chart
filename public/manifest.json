@@ -1,0 +1,27 @@
+{
+  "short_name": "Fintech Dashboard",
+  "name": "Fintech Dashboard",
+  "description":"App Fintech - Dashboard Practice in No-Country Foundation",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "Logo64x64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "Logo144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1041c9",
+  "orientation": "portrait",
+  "start_url": "."
+}

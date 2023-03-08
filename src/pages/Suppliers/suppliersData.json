@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "branch": "Buenos Aires",
+    "manager": "Adelina",
+    "stock": 323,
+    "sales": 5345
+  },
+  {
+    "id": 1,
+    "branch": "Cordoba",
+    "manager": "Carlos",
+    "stock": 453,
+    "sales": 2365
+  },
+  {
+    "id": 1,
+    "branch": "Mendoza",
+    "manager": "Roberto",
+    "stock": 124,
+    "sales": 6255
+  },
+  {
+    "id": 1,
+    "branch": "Buenos Aires",
+    "manager": "Adelina",
+    "stock": 323,
+    "sales": 5345
+  },
+  {
+    "id": 1,
+    "branch": "Mendoza",
+    "manager": "Roberto",
+    "stock": 124,
+    "sales": 6255
+  },
+  {
+    "id": 1,
+    "branch": "Cordoba",
+    "manager": "Carlos",
+    "stock": 453,
+    "sales": 2365
+  },
+  {
+    "id": 1,
+    "branch": "Mendoza",
+    "manager": "Roberto",
+    "stock": 124,
+    "sales": 6255
+  },
+  {
+    "id": 1,
+    "branch": "Buenos Aires",
+    "manager": "Adelina",
+    "stock": 323,
+    "sales": 5345
+  },
+  {
+    "id": 1,
+    "branch": "Mendoza",
+    "manager": "Roberto",
+    "stock": 124,
+    "sales": 6255
+  },
+  {
+    "id": 1,
+    "branch": "Cordoba",
+    "manager": "Carlos",
+    "stock": 453,
+    "sales": 2365
+  }
+]
