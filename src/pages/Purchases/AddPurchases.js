@@ -71,10 +71,10 @@ export default function AddPurchases() {
             <Form.Control type="date" />
           </Form.Group>
 
-          <Form.Group as={Col} controlId="formGridState">
+          {/* <Form.Group as={Col} controlId="formGridState">
             <Form.Label>Name Client</Form.Label>
             <Form.Control type="text" />
-          </Form.Group>
+          </Form.Group> */}
         </Row>
 
         {listProducts.map(item => (
