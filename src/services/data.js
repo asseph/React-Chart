@@ -15,14 +15,7 @@ export const dataProjects = [
     sales: 19,
     description: 'Less Frizz and helps reduce hair damage',
   },
-  {
-    id: 3,
-    product: 'French Terry Jogger',
-    price: 165,
-    stock: 32,
-    sales: 65,
-    description: 'Athletic pant in lightweight French terry fabrication',
-  },
+  
   {
     id: 4,
     product: 'Gorgeous Plastic Tuna',
